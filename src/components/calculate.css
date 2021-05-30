@@ -1,0 +1,41 @@
+.App {
+     background: black;
+    border-radius: 50px;
+    color: white;
+    height: 1218px;
+    padding: 20px;
+    position: relative;
+    width: 563px;
+}
+
+.top {
+    height: 250px;
+    padding: 0 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.display {
+    font-size: 130px;
+    margin-bottom: 20px;
+    font-weight: 300;
+    text-align: right;
+}
+
+.buttons {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-rows: repeat(5, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.bottom {
+    position: absolute;
+    width: 200px;
+    height: 5px;
+    background: white;
+    bottom: 5px;
+    left: 50%;
+    border-radius: 4px;
+    transform: translateX(-50%);
+}
